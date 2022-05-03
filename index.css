@@ -1,0 +1,72 @@
+:root {
+    font-size:10px;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.keyBoardLayout {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    position: absolute;
+    width:80vmin;
+    height:30vmin;
+    border:.2rem solid black;
+    border-radius: 3% 3% 10% 10%;
+}
+.keyContainer {
+    position: relative;
+    display: flex;
+    top: -.5rem;
+    right: 1rem;
+    width: 60vmin;
+    height: 20vmin;
+    border: .2rem solid black;
+    background-color: black;
+}
+.key {
+    width: 5vmin;
+    height: 19vmin;
+    background: white;
+    border: .1rem solid black;
+}
+.blackKey{
+    position: absolute;
+    width: 2vmin;
+    height: 12vmin;
+    background-color: black;
+}
+.CSharp {
+    left: 1rem;
+}
+.DSharp {
+    left: 2.5rem;
+}
+.FSharp {
+    left: 5.5rem;
+}
+.GSharp {
+    left: 7rem;
+}
+.ASharp {
+    left: 8.5rem;
+}
+.CSharp-2 {
+    right: 10rem;
+}
+.DSharp-2 {
+    right:8.5rem;
+}
+.FSharp-2 {
+    right: 5.5rem;
+}
+.GSharp-2 {
+    right: 4rem;
+}
+.ASharp-2 {
+    right: 2.5rem;
+}
