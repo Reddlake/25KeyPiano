@@ -7,66 +7,67 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    transform: rotate(90deg);
 }
 .keyBoardLayout {
     display: flex;
     justify-content: end;
     align-items: flex-end;
     position: absolute;
-    width:80vmin;
-    height:30vmin;
+    width:142vmin;
+    height:96vmin;
     border:.2rem solid black;
-    border-radius: 3% 3% 10% 10%;
+    border-radius: 3% 3% 5% 5%;
 }
 .keyContainer {
     position: relative;
     display: flex;
     top: -.5rem;
     right: 1rem;
-    width: 60vmin;
-    height: 20vmin;
+    width: 109vmin;
+    height: 74vmin;
     border: .2rem solid black;
     background-color: black;
 }
 .key {
-    width: 5vmin;
-    height: 19vmin;
+    width: 16vmin;
+    height: 72vmin;
     background: white;
     border: .1rem solid black;
 }
 .blackKey{
     position: absolute;
-    width: 2vmin;
-    height: 12vmin;
+    width: 5vmin;
+    height: 36vmin;
     background-color: black;
 }
 .CSharp {
-    left: 1rem;
+    left: 1.5rem;
 }
 .DSharp {
-    left: 2.5rem;
+    left: 4.5rem;
 }
 .FSharp {
-    left: 5.5rem;
+    left: 9.5rem;
 }
 .GSharp {
-    left: 7rem;
+    left: 12.5rem;
 }
 .ASharp {
-    left: 8.5rem;
+    left: 15.5rem;
 }
 .CSharp-2 {
-    right: 10rem;
+    right: 18rem;
 }
 .DSharp-2 {
-    right:8.5rem;
+    right:15.5rem;
 }
 .FSharp-2 {
-    right: 5.5rem;
+    right: 10rem;
 }
 .GSharp-2 {
-    right: 4rem;
+    right: 7rem;
 }
 .ASharp-2 {
-    right: 2.5rem;
+    right: 4.5rem;
 }
