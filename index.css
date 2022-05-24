@@ -14,7 +14,7 @@
     justify-content: end;
     align-items: flex-end;
     position: absolute;
-    width:142vmin;
+    width:174vmin;
     height:96vmin;
     border:.2rem solid black;
     border-radius: 3% 3% 5% 5%;
@@ -24,14 +24,14 @@
     display: flex;
     top: -.5rem;
     right: 1rem;
-    width: 109vmin;
+    width: 150vmin;
     height: 74vmin;
     border: .2rem solid black;
     background-color: black;
 }
 .key {
-    width: 16vmin;
-    height: 72vmin;
+    width: 10vmin;
+    height: 73vmin;
     background: white;
     border: .1rem solid black;
     display: flex;
@@ -40,7 +40,7 @@
 }
 .blackKey{
     position: absolute;
-    width: 5vmin;
+    width: 7vmin;
     height: 36vmin;
     background-color: black;
 }
@@ -51,32 +51,32 @@ span {
     font-size: 2rem;
 }
 .CSharp {
-    left: 1.5rem;
+    left: 2.5rem;
 }
 .DSharp {
-    left: 4.5rem;
+    left: 6.5rem;
 }
 .FSharp {
-    left: 9.5rem;
+    left: 13.5rem;
 }
 .GSharp {
-    left: 12.5rem;
+    left: 17.5rem;
 }
 .ASharp {
-    left: 15.5rem;
+    left: 21.5rem;
 }
 .CSharp-2 {
-    right: 18rem;
+    right: 25rem;
 }
 .DSharp-2 {
-    right:15.5rem;
+    right:21.5rem;
 }
 .FSharp-2 {
-    right: 10rem;
+    right: 14rem;
 }
 .GSharp-2 {
-    right: 7rem;
+    right: 10rem;
 }
 .ASharp-2 {
-    right: 4.5rem;
+    right: 6.5rem;
 }
