@@ -34,12 +34,21 @@
     height: 72vmin;
     background: white;
     border: .1rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .blackKey{
     position: absolute;
     width: 5vmin;
     height: 36vmin;
     background-color: black;
+}
+.blackKey>span {
+    color: white;
+}
+span {
+    font-size: 2rem;
 }
 .CSharp {
     left: 1.5rem;
