@@ -81,3 +81,7 @@ span {
 .ASharp-2 {
     right: 6.5rem;
 }
+@media all and (min-width:1024px){
+    .container {transform: rotate(360deg);
+    }
+}
