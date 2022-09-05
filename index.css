@@ -98,21 +98,24 @@ span {
 .ASharp-2 {
     right: 4.5rem;
 }
-.green, .red {
+.circle-container {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 1rem;
+    top: 4rem;
+}
+.circle-green, .circle-pink {
     width: 1rem;
     height: 1rem;
     border-radius: 100%;
-    position: relative;
 }
-.green {
+.circle-green {
     background-color: rgb(147,240,114);
-    top: 3rem;
-    right: 7rem;
 }
-.red {
+.circle-pink {
     background-color: rgb(255,124,136);
-    right: 4rem;
-    top: 2rem;
+
 }
 @media all and (min-width:1024px){
     .container {transform: rotate(360deg);
