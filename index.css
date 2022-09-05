@@ -125,11 +125,18 @@ span {
     background-color: rgb(255,124,136);
 
 }
-.img-play{
+.img-play {
     width: auto;
     height: 3rem;
     position: relative;
     top: 7rem;
+}
+.img-stop {
+    width: auto;
+    height: 3rem;
+    position: relative;
+    top: 7rem;
+    left: 0.5rem;
 }
 @media all and (min-width:1024px){
     .container {transform: rotate(360deg);
