@@ -21,10 +21,9 @@
     border-radius: 3% 3% 5% 5%;
 }
 div.nameLayout{
-    width: 20vmin;
-    top: -33rem;
+    width: 18vmin;
+    top: -31rem;
     position: relative;
-    font-size: 1rem;
 }
 span.name, span.model{
     font-family:'Lobster Two', cursive ;
@@ -63,7 +62,7 @@ span.modelNumber{
     color: white;
 }
 span {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 .CSharp, .DSharp, .FSharp, .GSharp, .ASharp, .CSharp-2, .DSharp-2, .FSharp-2, .GSharp-2, .ASharp-2 {
     border: .2rem white solid;
@@ -113,12 +112,24 @@ span {
     filter: brightness(1.25) blur(0.1px);
     box-shadow: inset 0px 2.5px 0px 0px black;
 }
+.circle-text {
+    position: absolute;
+    top: 9rem;
+    left: -1rem;
+    color: white;
+}
 .circle-green {
     background-color: rgb(147,240,114);
 }
 .circle-pink {
     background-color: rgb(255,124,136);
 
+}
+.img-play{
+    width: auto;
+    height: 3rem;
+    position: relative;
+    top: 7rem;
 }
 @media all and (min-width:1024px){
     .container {transform: rotate(360deg);
