@@ -10,6 +10,7 @@
     transform: rotate(90deg);
 }
 .keyBoardLayout {
+    background-color: black;
     display: flex;
     justify-content: end;
     align-items: flex-end;
@@ -18,6 +19,19 @@
     height:96vmin;
     border:.2rem solid black;
     border-radius: 3% 3% 5% 5%;
+}
+div.nameLayout{
+    width: 20vmin;
+    top: -34rem;
+    position: relative;
+    font-size: 1rem;
+}
+span.name, span.model{
+    font-family:'Lobster Two', cursive ;
+    color: white;
+}
+span.modelNumber{
+    color: yellow;
 }
 .keyContainer {
     position: relative;
@@ -50,6 +64,9 @@
 }
 span {
     font-size: 2rem;
+}
+.CSharp, .DSharp, .FSharp, .GSharp, .ASharp, .CSharp-2, .DSharp-2, .FSharp-2, .GSharp-2, .ASharp-2 {
+    border: .2rem white solid;
 }
 .CSharp {
     left: 2.5rem;
