@@ -104,11 +104,14 @@ span {
     position: relative;
     right: 1rem;
     top: 4rem;
+    
 }
 .circle-green, .circle-pink {
     width: 1rem;
     height: 1rem;
     border-radius: 100%;
+    filter: brightness(1.25) blur(0.1px);
+    box-shadow: inset 0px 2.5px 0px 0px black;
 }
 .circle-green {
     background-color: rgb(147,240,114);
