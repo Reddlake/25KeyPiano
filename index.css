@@ -10,7 +10,7 @@
     transform: rotate(90deg);
 }
 .keyBoardLayout {
-    background-color: black;
+    background-color: rgb(38,40,40);
     display: flex;
     justify-content: end;
     align-items: flex-end;
@@ -22,7 +22,7 @@
 }
 div.nameLayout{
     width: 20vmin;
-    top: -34rem;
+    top: -33rem;
     position: relative;
     font-size: 1rem;
 }
@@ -69,34 +69,34 @@ span {
     border: .2rem white solid;
 }
 .CSharp {
-    left: 2.5rem;
+    left: 2.68rem;
 }
 .DSharp {
-    left: 6.5rem;
+    left: 6.75rem;
 }
 .FSharp {
-    left: 13.5rem;
+    left: 15.75rem;
 }
 .GSharp {
-    left: 17.5rem;
+    left: 19.65rem;
 }
 .ASharp {
-    left: 21.5rem;
+    left: 24rem;
 }
 .CSharp-2 {
-    right: 25rem;
+    right: 26rem;
 }
 .DSharp-2 {
     right:21.5rem;
 }
 .FSharp-2 {
-    right: 14rem;
+    right: 12.5rem;
 }
 .GSharp-2 {
-    right: 10rem;
+    right: 8.5rem;
 }
 .ASharp-2 {
-    right: 6.5rem;
+    right: 4.5rem;
 }
 .green, .red {
     width: 1rem;
