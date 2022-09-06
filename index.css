@@ -106,8 +106,8 @@ span {
     
 }
 .circle-green, .circle-pink {
-    width: 1rem;
-    height: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
     border-radius: 100%;
     filter: brightness(1.25) blur(0.1px);
     box-shadow: inset 0px 2.5px 0px 0px black;
@@ -138,6 +138,36 @@ span {
     top: 7rem;
     left: 0.5rem;
 }
+span.pb1 {
+    position: absolute;
+    top: 15rem;
+    right: 5.1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+span.pb2 {
+    right: 2rem;
+    position: absolute;
+    top: 15rem;
+    right: 2.2rem;
+    font-size: 1.2rem;
+    color: white;
+}
+.img-backward {
+    position: absolute;
+    width: auto;
+    height: 2.7rem;
+    left: -0.5rem;
+    top: 17rem;
+}
+.img-forward {
+    position: absolute;
+    width: auto;
+    height: 2.7rem;
+    left: 3rem;
+    top: 17rem;
+}
+span
 @media all and (min-width:1024px){
     .container {transform: rotate(360deg);
     }
