@@ -184,6 +184,33 @@ button {
     height: 2.6rem;
     width: 2.6rem;
 }
+.setupTxt {
+    position: absolute;
+    right: 65.7rem;
+    bottom: 8.8rem;
+    border-top: 1px solid white;
+    padding-top: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.txtColor {
+    color: white;
+    font-size: 1.4rem;
+}
+.leftLine {
+    position: absolute;
+    right: 69.5rem;
+    bottom: 10.4rem;
+    height: 3.5px;
+    border-left: 1px solid white;
+}
+.rightLine {
+    position: absolute;
+    right: 65.6rem;
+    bottom: 10.4rem;
+    height: 3.5px;
+    border-right: 1px solid white;
+}
 @media all and (min-width:1024px){
     .container {transform: rotate(360deg);
     }
