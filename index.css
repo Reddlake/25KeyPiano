@@ -167,7 +167,23 @@ span.pb2 {
     left: 3rem;
     top: 17rem;
 }
-span
+.setupBtns {
+    display: flex;
+    gap: 0.5rem;
+    position: absolute;
+    z-index: 1;
+    right: 65rem;
+    bottom: 12rem;
+}
+button {
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px black;
+    color: white;
+    background-color: rgb(38,40,40);
+    border: 1px solid black;
+    height: 2.6rem;
+    width: 2.6rem;
+}
 @media all and (min-width:1024px){
     .container {transform: rotate(360deg);
     }
