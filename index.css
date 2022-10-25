@@ -211,6 +211,18 @@ button {
     height: 3.5px;
     border-right: 1px solid white;
 }
+.txtLabel {
+    color: white;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+}
+.returnDefault {
+    position: absolute;
+    right: 59.8rem;
+    bottom: 31.5rem;
+    width: 4rem;
+}
 @media all and (min-width:1024px){
     .container {transform: rotate(360deg);
     }
