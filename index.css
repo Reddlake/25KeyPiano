@@ -219,7 +219,37 @@ button {
 }
 .returnDefault {
     position: absolute;
-    right: 59.8rem;
+    right: 60.3rem;
+    bottom: 31.5rem;
+    width: 4rem;
+}
+.velocityCurve {
+    position: absolute;
+    right: 56.6rem;
+    bottom: 31.5rem;
+    width: 4rem;
+}
+.globalChannel {
+    position: absolute;
+    right: 53.4rem;
+    bottom: 31.5rem;
+    width: 4rem;
+}
+.program {
+    position: absolute;
+    right: 49.7rem;
+    bottom: 31.5rem;
+    width: 4rem;
+}
+.recall {
+    position: absolute;
+    right: 46.5rem;
+    bottom: 31.5rem;
+    width: 4rem;
+}
+.store {
+    position: absolute;
+    right: 44rem;
     bottom: 31.5rem;
     width: 4rem;
 }
